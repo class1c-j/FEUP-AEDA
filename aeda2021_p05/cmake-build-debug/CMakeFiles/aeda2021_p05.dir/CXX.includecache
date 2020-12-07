@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p05/Tests/game.cpp
+game.h
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p05/Tests/game.h
+cstdlib
+-
+iostream
+-
+algorithm
+-
+random
+-
+
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p05/Tests/game.h
+kid.h
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p05/Tests/kid.h
+list
+-
+string
+-
+
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p05/Tests/kid.h
+string
+-
+sstream
+-
+

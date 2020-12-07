@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p02_extra/Tests/animal.h
+veterinary.h
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p02_extra/Tests/veterinary.h
+string
+-
+algorithm
+-
+
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p02_extra/Tests/veterinary.h
+string
+-
+sstream
+-
+utility
+-
+
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p02_extra/Tests/zoo.cpp
+zoo.h
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p02_extra/Tests/zoo.h
+iostream
+-
+sstream
+-
+
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p02_extra/Tests/zoo.h
+animal.h
+/home/ritam/Documentos/2mieic1/aeda/aeda2021_p02_extra/Tests/animal.h
+vector
+-
+numeric
+-
+

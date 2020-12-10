@@ -10,7 +10,7 @@ struct betHash {
     int operator()(const Bet &b) const {
         int hash{};
         // might cause collisions on some cases but should be enough for the unit tests
-        for (const auto &number : b.getNumbers()) hash = std::hash<unsigned>()(number);
+        for (const auto &number : b.getNumbers()) hash *= std::hash<unsigned>()(number);
         return hash;
     }
 
